@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Nigelify",
+	"version": "0.1",
+	
+	"default_local": "en",
+	"description": "replaces all images on a page with gifs of Nigel Thornberry",
+	"background": {
+		"scripts":["main.js"],
+		"persistent":false
+	},
+	"browser_action": {
+		"default_icon": { 
+			"19": "19.png",
+			"38": "38.png"
+		},
+		"default_title": "nigelify"
+	},
+	"author": "Luke Wright",
+	"permissions":[
+		"activeTab",
+		"http://i.imgur.com/",
+		"http://*/*",
+		"https://*/*"
+	]
+}
