@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
 	"name": "Nigelify",
-	"version": "0.1",
+	"version": "0.2",
 	
 	"default_local": "en",
-	"description": "replaces all images on a page with gifs of Nigel Thornberry",
+	"description": "Making the internet a million times better by replacing all images on a page with gifs of Nigel Thornberry.",
 	"background": {
 		"scripts":["main.js"],
 		"persistent":false
