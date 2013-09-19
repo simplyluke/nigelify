@@ -21,8 +21,6 @@
 	"author": "Luke Wright",
 	"permissions":[
 		"activeTab",
-		"http://i.imgur.com/",
-		"http://*/*",
-		"https://*/*"
+		"http://i.imgur.com/"
 	]
 }
